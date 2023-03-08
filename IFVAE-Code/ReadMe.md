@@ -1,6 +1,6 @@
 # IF-VAE ReadMe:
 
-This archive contains a Python implementation of IF-VAE, VAE and variant IF-VAE(X), VAE(X), along with an application on 10 Microarray data sets and 8 single-cell data sets as described in the paper ‘D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods’. 
+This archive contains a Python implementation of IF-VAE, VAE and variant IF-VAE(X), VAE(X), along with an application on 10 Microarray data sets and 8 single-cell data sets as described in the paper *D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods*. 
 
 Current version 
 
@@ -16,7 +16,7 @@ Provide all functions and classes required to implement IF-VAE. Can implement th
 
 Usage: 
 ```
-[ labels, error ] =  IF_VAE(Data, num_class, true_label = [], feature_select = True, normalize = True, latent_dim = 25, per = 1, batch_size = 50, epochs = 100, learning_rate = 0.0005)
+[labels, error] =  IF_VAE(Data, num_class, true_label = [], feature_select = True, normalize = True, latent_dim = 25, per = 1, batch_size = 50, epochs = 100, learning_rate = 0.0005)
 ```
 
 **Input**: 
