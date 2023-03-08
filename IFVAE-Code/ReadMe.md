@@ -12,7 +12,7 @@ Contains 3 Python files:
 
 ### 1. Function.py: (for the usage of IF-VAE, please see the other 2 example files) 
 
-Provide all functions and classes required to implement IF-VAE. Can implement the IF-VAE and VAE using the main function called ‘IF-VAE’：
+Provide all functions and classes required to implement IF-VAE. Can implement the IF-VAE and VAE using the main function called *IF-VAE*：
 
 Usage: 
 ```
