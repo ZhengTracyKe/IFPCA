@@ -19,7 +19,7 @@ Usage:
 [ labels, error ] =  IF_VAE(Data, num_class, true_label = [], feature_select = True, normalize = True, latent_dim = 25, per = 1, batch_size = 50, epochs = 100, learning_rate = 0.0005)
 ```
 
-** Input: 
+**Input**: 
 	* Data: p-by-n data matrix, n is number of samples, p is number of featuers. Each column presents the observations for a sample. 	
 	* num_class: number of classes
 * Input(optional):
