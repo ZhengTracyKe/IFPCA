@@ -1,4 +1,4 @@
-IF-VAE Read Me:
+#IF-VAE Read Me:
 
 This archive contains a Python implementation of IF-VAE, VAE and variant IF-VAE(X), VAE(X), along with an application on 10 Microarray data sets and 8 single-cell data sets as described in the paper ‘D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods’. 
 
@@ -6,11 +6,11 @@ Current version
 
 V1.1
 
-SHORT DOCUMENTATION
+##SHORT DOCUMENTATION
 
 Contains 3 Python files:
 
-1. Function.py: (for the usage of IF-VAE, please see the other 2 example files) 
+###1. Function.py: (for the usage of IF-VAE, please see the other 2 example files) 
 
 Provide all functions and classes required to implement IF-VAE. Can implement the IF-VAE and VAE using the main function called ‘IF-VAE’：
 
@@ -34,17 +34,17 @@ Output:
 
 For more information about the functions, please see ‘Function.py’ with detailed description. For the usage of IF-VAE function, please see the other 2 example files:
 
-2. Example-Microarray.py:
+###2. Example-Microarray.py:
 
 Provide examples to run IF-VAE, VAE, IF-VAE(X), VAE(X) on the 10 Microarray data sets.
 
-3. Example-Single-Cell.py:
+###3. Example-Single-Cell.py:
 
 Provide examples to run IF-VAE, VAE, IF-VAE(X), VAE(X) on the 8 Single-cell data sets.
 
 
 
-LICENSE
+##LICENSE
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
 
@@ -53,7 +53,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 If you use this code for your publication, please include a reference to the paper ‘D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods’.
  
  
-CONTACT
+##CONTACT
 For any problem, please contact
 Dieyi Chen
 at Harvard University, Department of Statistics
