@@ -19,9 +19,9 @@ Usage:
 [ labels, error ] =  IF_VAE(Data, num_class, true_label = [], feature_select = True, normalize = True, latent_dim = 25, per = 1, batch_size = 50, epochs = 100, learning_rate = 0.0005)
 ```
 
-* Input: 
-	** Data: p-by-n data matrix, n is number of samples, p is number of featuers. Each column presents the observations for a sample. 	
-	** num_class: number of classes
+** Input: 
+	* Data: p-by-n data matrix, n is number of samples, p is number of featuers. Each column presents the observations for a sample. 	
+	* num_class: number of classes
 * Input(optional):
 	true_label: vector of n, true class labels. If class label is given, can output the number of errors
 	feature_selection: boolean, if run IF-step or not, default is True. If run VAE, set feature_selection = False
