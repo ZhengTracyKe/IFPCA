@@ -1,4 +1,4 @@
-# IF-VAE Read Me:
+# IF-VAE ReadMe:
 
 This archive contains a Python implementation of IF-VAE, VAE and variant IF-VAE(X), VAE(X), along with an application on 10 Microarray data sets and 8 single-cell data sets as described in the paper ‘D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods’. 
 
@@ -22,10 +22,10 @@ Usage:
 **Input**: 
 	* Data: p-by-n data matrix, n is number of samples, p is number of featuers. Each column presents the observations for a sample. 	
 	* num_class: number of classes
-* Input(optional):
-	true_label: vector of n, true class labels. If class label is given, can output the number of errors
-	feature_selection: boolean, if run IF-step or not, default is True. If run VAE, set feature_selection = False
-	normalize: boolean, if VAE is applied to the normalized data matrix or not, defalt is True. If run variant IF-VAE(X) and VAE(X), set normalize = False
+**Input(optional)**:
+	* true_label: vector of n, true class labels. If class label is given, can output the number of errors
+	* feature_selection: boolean, if run IF-step or not, default is True. If run VAE, set feature_selection = False
+	* normalize: boolean, if VAE is applied to the normalized data matrix or not, defalt is True. If run variant IF-VAE(X) and VAE(X), set normalize = False
 	latent_dim: dimensionality of the latent space in VAE, default is 25
 	per: in IF-step, a number with 0 < per <= 1, the percentage of Kolmogorov-Smirnov statistics that will be used in the normalization step, default is 1. When the data is highly skewed, this parameter can be specified, such as 0.5.
 	batch_size: batch size in training the neural network in VAE, default is 50
