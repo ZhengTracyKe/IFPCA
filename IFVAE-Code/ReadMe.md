@@ -21,6 +21,7 @@ Usage:
 
 * Input: 
 	Data: p-by-n data matrix, n is number of samples, p is number of featuers. Each column presents the observations for a sample. 
+	
 	num_class: number of classes
 * Input(optional):
 	true_label: vector of n, true class labels. If class label is given, can output the number of errors
