@@ -61,6 +61,6 @@ If you use this code for your publication, please include a reference to the pap
 ## CONTACT
 For any problem, please contact
 Dieyi Chen
-at Harvard University, Department of Statistics
+at Harvard University, Department of Statistics.
 Email: dieyi.chen@g.harvard.edu
 
