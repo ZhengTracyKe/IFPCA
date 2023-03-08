@@ -55,7 +55,7 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-If you use this code for your publication, please include a reference to the paper ‘D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods’.
+If you use this code for your publication, please include a reference to the paper *D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods*.
  
  
 ## CONTACT
