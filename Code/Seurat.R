@@ -1,6 +1,6 @@
 #### This file is run on RStudio Cloud under R 4.0.5 (Seurat needs R version > 4.0)
 #### Code reference: https://rpubs.com/aomidsal/682508
-#### Seurat don't input fix number of clusters, check number of cluster in 'FindClusters' function
+#### Seurat doesn't input fix number of clusters, need to check the number of cluster in 'FindClusters' function
 #### the result is stable with fixed tuning parameters, one iteration is enough
 ### different tuning parameters may give slightly different errors
 library('Seurat')
