@@ -1,6 +1,7 @@
 ############ Examples to implement IF-VAE, VAE, IF-VAE(X), VAE(X) in 10 Microarray data sets described in the paper D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods.######
 import pandas as pd
 import Function as F
+from sklearn.metrics.cluster import adjusted_rand_score #comoute ARI
 path = '/Users/name/Desktop/Data/Microarray/' # path of the data sets
 
 ########### import 10 Microarray Data Sets ###########
@@ -71,7 +72,7 @@ num = max(labels_true) - min(labels_true) + 1 #number of classes
 ### print the result
 print('Predicted class labels: ', labels)
 print('Number of errors: ', error)
-
+print('ARI: ', adjusted_rand_score(labels_true,labels))
 
 ########### Only run feature selection (IF-step)
 #[ranking, numselect] = F.feature_selection(Data = Data) # input p-by-n data matrix
