@@ -72,6 +72,7 @@ num = max(labels_true) - min(labels_true) + 1 #number of classes
 ### print the result
 print('Predicted class labels: ', labels)
 print('Number of errors: ', error)
+print('Clustering accuracy: ', 1 - error/Data.shape[1])
 print('ARI: ', adjusted_rand_score(labels_true,labels))
 
 ########### Only run feature selection (IF-step)
