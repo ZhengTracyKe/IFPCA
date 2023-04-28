@@ -2,6 +2,9 @@
 
 This folder contains 10 Microarray data sets studied in the paper *D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods*.
 
+The data sets are stored in Mendeley Data: https://data.mendeley.com/datasets/cdsz2ddv3t
+
+
 All data sets are obtained from *Jin, J. and Wang, W. (2016) Infuential features pca for high dimensional clustering. The Annals of Statistics, 44(6), pp.2323-2359*. Details can be found at www.stat.cmu.edu/~jiashun/Research/software/GenomicsData.
 
 ## Name set: (p-by-n data matrix)
