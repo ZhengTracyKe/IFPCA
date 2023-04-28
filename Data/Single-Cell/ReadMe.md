@@ -1,6 +1,8 @@
 # 8 Single-cell RNA-seq data sets
 This folder contains 8 Single-cell RNA-seq data sets studied in the paper *D. Chen, J, Jin, and Z.T. Ke (2023) Subject clustering by IF-PCA and several recent methods*.
 
+The data sets are stored in Mendeley Data: https://data.mendeley.com/datasets/nv2x6kf5rd 
+
 Data matrix (p-by-n) is the log-counts of the single-cell RNA-sequence reads of different genes (features) in different cells(samples). The data were downloaded and processed from the Hemberg Group at the Sanger Institute (https://hemberg-lab.github.io/scRNA.seq.datasets).
 
 ## Name set: (p-by-n data matrix)
